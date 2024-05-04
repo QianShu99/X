@@ -407,7 +407,7 @@ function ui:Window(Header)
             descLabel.TextXAlignment = Enum.TextXAlignment.Left
             descLabel.Font = Enum.Font.SourceSans
             descLabel.TextSize = 12
-            descLabel.TextColor3 = Color3.fromRGB(128, 128, 191)
+            descLabel.TextColor3 = Color3.fromRGB(255, 255, 255)
             descLabel.Size = UDim2.new(0, 175, 0, 42)
             descLabel.BorderColor3 = Color3.fromRGB(0, 0, 0)
             descLabel.Text = Desc
@@ -489,7 +489,7 @@ function ui:Window(Header)
 			G2L["17"]["TextXAlignment"] = Enum.TextXAlignment.Left;
 			G2L["17"]["FontFace"] = Font.new([[rbxasset://fonts/families/GothamSSm.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
 			G2L["17"]["TextSize"] = 12;
-			G2L["17"]["TextColor3"] = Color3.fromRGB(128, 128, 191);
+			G2L["17"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
 			G2L["17"]["Size"] = UDim2.new(0, 215, 0, 42);
 			G2L["17"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
 			G2L["17"]["Text"] = Desc;
@@ -564,7 +564,7 @@ function ui:Window(Header)
             descLabel.TextXAlignment = Enum.TextXAlignment.Left
             descLabel.Font = Enum.Font.SourceSans
             descLabel.TextSize = 12
-            descLabel.TextColor3 = Color3.fromRGB(128, 128, 191)
+            descLabel.TextColor3 = Color3.fromRGB(255, 255, 255)
             descLabel.Size = UDim2.new(0, 215, 0, 42)
             descLabel.BorderColor3 = Color3.fromRGB(0, 0, 0)
             descLabel.Text = Desc
@@ -653,7 +653,7 @@ function ui:Window(Header)
 			G2L["27"]["TextXAlignment"] = Enum.TextXAlignment.Left;
 			G2L["27"]["FontFace"] = Font.new([[rbxasset://fonts/families/GothamSSm.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
 			G2L["27"]["TextSize"] = 12;
-			G2L["27"]["TextColor3"] = Color3.fromRGB(128, 128, 191);
+			G2L["27"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
 			G2L["27"]["Size"] = UDim2.new(0, 215, 0, 42);
 			G2L["27"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
 			G2L["27"]["Text"] = Desc;
