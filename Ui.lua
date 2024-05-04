@@ -417,7 +417,7 @@ function ui:Window(Header)
         
             local inputBox = Instance.new("TextBox", inputFrame)
             inputBox.CursorPosition = -1
-            inputBox.PlaceholderColor3 = Color3.fromRGB(115, 115, 171)
+            inputBox.PlaceholderColor3 = Color3.fromRGB(255, 255, 255)
             inputBox.BorderSizePixel = 0
             inputBox.TextSize = 11
             inputBox.BackgroundColor3 = Color3.fromRGB(26, 26, 39)
