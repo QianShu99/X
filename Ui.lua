@@ -26,7 +26,7 @@ function ui:Window(Header)
 
 	-- StarterGui.OuxieUI.UI.UIStroke
 	G2L["4"] = Instance.new("UIStroke", G2L["2"]);
-	G2L["4"]["Color"] = Color3.fromRGB(171, 171, 255);
+	G2L["4"]["Color"] = Color3.fromRGB(255, 255, 255);
 
 	-- StarterGui.OuxieUI.UI.Top
 	G2L["5"] = Instance.new("Frame", G2L["2"]);
@@ -57,7 +57,7 @@ function ui:Window(Header)
 	G2L["8"]["TextXAlignment"] = Enum.TextXAlignment.Left;
 	G2L["8"]["FontFace"] = Font.new([[rbxasset://fonts/families/GothamSSm.json]], Enum.FontWeight.SemiBold, Enum.FontStyle.Normal);
 	G2L["8"]["TextSize"] = 14;
-	G2L["8"]["TextColor3"] = Color3.fromRGB(162, 162, 242);
+	G2L["8"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
 	G2L["8"]["Size"] = UDim2.new(0, 176, 0, 32);
 	G2L["8"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
 	G2L["8"]["Text"] = Header;
@@ -84,7 +84,7 @@ function ui:Window(Header)
 	G2L["b"]["ZIndex"] = 2;
 	G2L["b"]["BorderSizePixel"] = 0;
 	G2L["b"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
-	G2L["b"]["ImageColor3"] = Color3.fromRGB(162, 162, 242);
+	G2L["b"]["ImageColor3"] = Color3.fromRGB(255, 255, 255);
 	G2L["b"]["AnchorPoint"] = Vector2.new(0.5, 0.5);
 	G2L["b"]["Image"] = [[rbxassetid://7072725342]];
 	G2L["b"]["Size"] = UDim2.new(0.5, 0, 0.5, 0);
@@ -108,7 +108,7 @@ function ui:Window(Header)
 	G2L["d"]["ZIndex"] = 2;
 	G2L["d"]["BorderSizePixel"] = 0;
 	G2L["d"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
-	G2L["d"]["ImageColor3"] = Color3.fromRGB(162, 162, 242);
+	G2L["d"]["ImageColor3"] = Color3.fromRGB(255, 255, 255);
 	G2L["d"]["AnchorPoint"] = Vector2.new(0.5, 0.5);
 	G2L["d"]["Image"] = [[rbxassetid://7072719338]];
 	G2L["d"]["Size"] = UDim2.new(0.5, 0, 0.5, 0);
@@ -190,7 +190,7 @@ function ui:Window(Header)
 
 	-- StarterGui.OuxieUI.MINI.UIStroke
 	G2L["44"] = Instance.new("UIStroke", G2L["43"]);
-	G2L["44"]["Color"] = Color3.fromRGB(171, 171, 255);
+	G2L["44"]["Color"] = Color3.fromRGB(255, 255, 255);
 
 	-- StarterGui.OuxieUI.MINI.UICorner
 	G2L["45"] = Instance.new("UICorner", G2L["43"]);
@@ -223,7 +223,7 @@ function ui:Window(Header)
 	G2L["4a"]["ZIndex"] = 999999999;
 	G2L["4a"]["BorderSizePixel"] = 0;
 	G2L["4a"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
-	G2L["4a"]["ImageColor3"] = Color3.fromRGB(162, 162, 242);
+	G2L["4a"]["ImageColor3"] = Color3.fromRGB(255, 255, 255);
 	G2L["4a"]["AnchorPoint"] = Vector2.new(0.5, 0.5);
 	G2L["4a"]["Image"] = [[rbxassetid://17384203602]];
 	G2L["4a"]["Size"] = UDim2.new(0.800000011920929, 0, 0.800000011920929, 0);
@@ -273,7 +273,7 @@ function ui:Window(Header)
 		G2L["3e"]["FontFace"] = Font.new([[rbxassetid://12187365364]], Enum.FontWeight.Medium, Enum.FontStyle.Normal);
 		G2L["3e"]["TextTransparency"] = 0.20000000298023224;
 		G2L["3e"]["TextSize"] = 15;
-		G2L["3e"]["TextColor3"] = Color3.fromRGB(162, 162, 242);
+		G2L["3e"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
 		G2L["3e"]["AutomaticSize"] = Enum.AutomaticSize.X;
 		G2L["3e"]["Size"] = UDim2.new(0, 0, 1, 0);
 		G2L["3e"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
@@ -288,7 +288,7 @@ function ui:Window(Header)
 		G2L["3f"]["BorderSizePixel"] = 0;
 		G2L["3f"]["ScaleType"] = Enum.ScaleType.Fit;
 		G2L["3f"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
-		G2L["3f"]["ImageColor3"] = Color3.fromRGB(162, 162, 242);
+		G2L["3f"]["ImageColor3"] = Color3.fromRGB(255, 255, 255);
 		G2L["3f"]["AnchorPoint"] = Vector2.new(0.5, 0.5);
 		G2L["3f"]["Size"] = UDim2.new(0, 16, 0, 16);
 		G2L["3f"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
