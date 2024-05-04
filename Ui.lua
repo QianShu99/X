@@ -511,7 +511,7 @@ function ui:Window(Header)
 			G2L["19"] = Instance.new("ImageLabel", G2L["13"]);
 			G2L["19"]["BorderSizePixel"] = 0;
 			G2L["19"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
-			G2L["19"]["ImageColor3"] = Color3.fromRGB(157, 157, 235);
+			G2L["19"]["ImageColor3"] = Color3.fromRGB(255, 255, 255);
 			G2L["19"]["AnchorPoint"] = Vector2.new(0, 0.5);
 			G2L["19"]["Image"] = [[rbxassetid://7072706745]];
 			G2L["19"]["Size"] = UDim2.new(0, 27, 0, 27);
@@ -584,7 +584,7 @@ function ui:Window(Header)
             local checkImage = Instance.new("ImageLabel", toggleFrame)
             checkImage.BorderSizePixel = 0
             checkImage.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-            checkImage.ImageColor3 = Color3.fromRGB(157, 157, 235)
+            checkImage.ImageColor3 = Color3.fromRGB(255, 255, 255)
             checkImage.AnchorPoint = Vector2.new(0, 0.5)
             checkImage.Image = "rbxassetid://7072723598"
             checkImage.Size = UDim2.new(0, 27, 0, 27)
@@ -675,7 +675,7 @@ function ui:Window(Header)
 			G2L["29"] = Instance.new("ImageLabel", G2L["23"]);
 			G2L["29"]["BorderSizePixel"] = 0;
 			G2L["29"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
-			G2L["29"]["ImageColor3"] = Color3.fromRGB(157, 157, 235);
+			G2L["29"]["ImageColor3"] = Color3.fromRGB(255, 255, 255);
 			G2L["29"]["AnchorPoint"] = Vector2.new(0, 0.5);
 			G2L["29"]["Image"] = [[rbxassetid://7072718266]];
 			G2L["29"]["Size"] = UDim2.new(0, 27, 0, 27);
@@ -804,7 +804,7 @@ function ui:Window(Header)
 				G2L["34"] = Instance.new("ImageLabel", G2L["2f"]);
 				G2L["34"]["BorderSizePixel"] = 0;
 				G2L["34"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
-				G2L["34"]["ImageColor3"] = Color3.fromRGB(157, 157, 235);
+				G2L["34"]["ImageColor3"] = Color3.fromRGB(255, 255, 255);
 				G2L["34"]["AnchorPoint"] = Vector2.new(0, 0.5);
 				G2L["34"]["Image"] = [[rbxassetid://7072706745]];
 				G2L["34"]["Size"] = UDim2.new(0, 27, 0, 27);
