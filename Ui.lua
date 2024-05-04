@@ -707,4 +707,301 @@ function ui:Window(Header)
 			G2L["2c"] = Instance.new("UICorner", G2L["2a"]);
 			G2L["2c"]["CornerRadius"] = UDim.new(0, 4);
 
-			-- StarterGui.OuxieUI.UI.Elements.Pages.Page1.DROPDOWN
+			-- StarterGui.OuxieUI.UI.Elements.Pages.Page1.DROPDOWN_P2.NAME
+			G2L["2d"] = Instance.new("TextLabel", G2L["2a"]);
+			G2L["2d"]["TextWrapped"] = true;
+			G2L["2d"]["BorderSizePixel"] = 0;
+			G2L["2d"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+			G2L["2d"]["TextXAlignment"] = Enum.TextXAlignment.Left;
+			G2L["2d"]["FontFace"] = Font.new([[rbxasset://fonts/families/GothamSSm.json]], Enum.FontWeight.Medium, Enum.FontStyle.Normal);
+			G2L["2d"]["TextSize"] = 14;
+			G2L["2d"]["TextColor3"] = Color3.fromRGB(160, 160, 239);
+			G2L["2d"]["Size"] = UDim2.new(0, 244, 0, 34);
+			G2L["2d"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+			G2L["2d"]["Text"] = Name;
+			G2L["2d"]["Name"] = [[NAME]];
+			G2L["2d"]["BackgroundTransparency"] = 1;
+			G2L["2d"]["Position"] = UDim2.new(0.05012529343366623, 0, 2.1283059936649806e-07, 0);
+
+			-- StarterGui.OuxieUI.UI.Elements.Pages.Page1.DROPDOWN_P2.Options
+			G2L["2e"] = Instance.new("ScrollingFrame", G2L["2a"]);
+			G2L["2e"]["Active"] = true;
+			G2L["2e"]["ScrollingDirection"] = Enum.ScrollingDirection.Y;
+			G2L["2e"]["BorderSizePixel"] = 0;
+			G2L["2e"]["CanvasSize"] = UDim2.new(0, 0, 0, 0);
+			G2L["2e"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+			G2L["2e"]["AutomaticCanvasSize"] = Enum.AutomaticSize.Y;
+			G2L["2e"]["BackgroundTransparency"] = 1;
+			G2L["2e"]["Size"] = UDim2.new(0, 272, 0, 121);
+			G2L["2e"]["ScrollBarImageColor3"] = Color3.fromRGB(0, 0, 0);
+			G2L["2e"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+			G2L["2e"]["ScrollBarThickness"] = 0;
+			G2L["2e"]["Position"] = UDim2.new(0.0028680909890681505, 0, 0.21809564530849457, 0);
+			G2L["2e"]["Name"] = [[Options]];
+
+			-- StarterGui.OuxieUI.UI.Elements.Pages.Page1.DROPDOWN_P2.Options.UIPadding
+			G2L["35"] = Instance.new("UIPadding", G2L["2e"]);
+			G2L["35"]["PaddingTop"] = UDim.new(0, 1);
+			G2L["35"]["PaddingRight"] = UDim.new(0, 1);
+			G2L["35"]["PaddingBottom"] = UDim.new(0, 1);
+			G2L["35"]["PaddingLeft"] = UDim.new(0, 1);
+
+			-- StarterGui.OuxieUI.UI.Elements.Pages.Page1.DROPDOWN_P2.Options.UIListLayout
+			G2L["36"] = Instance.new("UIListLayout", G2L["2e"]);
+			G2L["36"]["HorizontalAlignment"] = Enum.HorizontalAlignment.Center;
+			G2L["36"]["Padding"] = UDim.new(0, 7);
+			G2L["36"]["SortOrder"] = Enum.SortOrder.LayoutOrder;
+			
+			selected = nil
+			function drop:Add(Name)
+
+				-- StarterGui.OuxieUI.UI.Elements.Pages.Page1.DROPDOWN_P2.Options.OPTION
+				G2L["2f"] = Instance.new("Frame", G2L["2e"]);
+				G2L["2f"]["BorderSizePixel"] = 0;
+				G2L["2f"]["BackgroundColor3"] = Color3.fromRGB(30, 30, 45);
+				G2L["2f"]["Size"] = UDim2.new(0.963421106338501, 0, -0.5246620178222656, 100);
+				G2L["2f"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+				G2L["2f"]["Position"] = UDim2.new(0.021052641794085503, 0, 0, 0);
+				G2L["2f"]["Name"] = Name;
+
+				-- StarterGui.OuxieUI.UI.Elements.Pages.Page1.DROPDOWN_P2.Options.OPTION.UIStroke
+				G2L["30"] = Instance.new("UIStroke", G2L["2f"]);
+				G2L["30"]["Color"] = Color3.fromRGB(54, 54, 81);
+
+				-- StarterGui.OuxieUI.UI.Elements.Pages.Page1.DROPDOWN_P2.Options.OPTION.UICorner
+				G2L["31"] = Instance.new("UICorner", G2L["2f"]);
+				G2L["31"]["CornerRadius"] = UDim.new(0, 4);
+
+				-- StarterGui.OuxieUI.UI.Elements.Pages.Page1.DROPDOWN_P2.Options.OPTION.NAME
+				G2L["32"] = Instance.new("TextLabel", G2L["2f"]);
+				G2L["32"]["TextWrapped"] = true;
+				G2L["32"]["BorderSizePixel"] = 0;
+				G2L["32"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+				G2L["32"]["TextXAlignment"] = Enum.TextXAlignment.Left;
+				G2L["32"]["FontFace"] = Font.new([[rbxasset://fonts/families/GothamSSm.json]], Enum.FontWeight.Medium, Enum.FontStyle.Normal);
+				G2L["32"]["TextSize"] = 14;
+				G2L["32"]["TextColor3"] = Color3.fromRGB(160, 160, 239);
+				G2L["32"]["AnchorPoint"] = Vector2.new(0, 0.5);
+				G2L["32"]["Size"] = UDim2.new(0, 215, 0, 34);
+				G2L["32"]["Active"] = true;
+				G2L["32"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+				G2L["32"]["Text"] = Name;
+				G2L["32"]["Name"] = [[NAME]];
+				G2L["32"]["BackgroundTransparency"] = 1;
+				G2L["32"]["Position"] = UDim2.new(0.05000000074505806, 0, 0.5, 0);
+
+				-- StarterGui.OuxieUI.UI.Elements.Pages.Page1.DROPDOWN_P2.Options.OPTION.Button
+				G2L["33"] = Instance.new("ImageButton", G2L["2f"]);
+				G2L["33"]["BorderSizePixel"] = 0;
+				G2L["33"]["AutoButtonColor"] = false;
+				G2L["33"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+				G2L["33"]["Size"] = UDim2.new(1, 0, 1, 0);
+				G2L["33"]["Name"] = [[Button]];
+				G2L["33"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+				G2L["33"]["BackgroundTransparency"] = 1;
+
+				-- StarterGui.OuxieUI.UI.Elements.Pages.Page1.DROPDOWN_P2.Options.OPTION.Arrow
+				G2L["34"] = Instance.new("ImageLabel", G2L["2f"]);
+				G2L["34"]["BorderSizePixel"] = 0;
+				G2L["34"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+				G2L["34"]["ImageColor3"] = Color3.fromRGB(157, 157, 235);
+				G2L["34"]["AnchorPoint"] = Vector2.new(0, 0.5);
+				G2L["34"]["Image"] = [[rbxassetid://7072706745]];
+				G2L["34"]["Size"] = UDim2.new(0, 27, 0, 27);
+				G2L["34"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+				G2L["34"]["Name"] = [[Arrow]];
+				G2L["34"]["BackgroundTransparency"] = 1;
+				G2L["34"]["Position"] = UDim2.new(0.8413890600204468, 0, 0.5, 0);
+
+				G2L["33"].MouseButton1Click:Connect(function()
+					selected = Name
+					pcall()
+				end)
+			end
+			
+            for key, value in pairs(drop) do
+                if type(value) ~= "function" then
+                    print(key, value)
+                    drop:Add(tostring(value))
+                end
+            end
+
+			G2L["28"].MouseButton1Click:Connect(function()
+				--G2L["2a"].Visible = not G2L["2a"].Visible
+                tab.content[Name.."_P2"].Visible = not tab.content[Name.."_P2"].Visible
+			end)
+			
+		end
+		
+		return tab
+		
+	end
+
+	-- StarterGui.OuxieUI.UI.Top.TopHandler
+	local function C_e()
+		local script = G2L["e"];
+		local mini = script.Parent.Mini
+		local close = script.Parent.Close
+
+		close.MouseEnter:Connect(function()
+			close.ImageLabel.ImageColor3 = Color3.fromRGB(255, 0, 0)
+		end)
+		mini.MouseEnter:Connect(function()
+			mini.ImageLabel.ImageColor3 = Color3.fromRGB(255, 255, 0)
+		end)
+		close.MouseLeave:Connect(function()
+			close.ImageLabel.ImageColor3 = Color3.fromRGB(161, 161, 241)
+		end)
+		mini.MouseLeave:Connect(function()
+			mini.ImageLabel.ImageColor3 = Color3.fromRGB(161, 161, 241)
+		end)
+
+		close.MouseButton1Down:Connect(function()
+			close.ImageLabel.ImageColor3 = Color3.fromRGB(255, 0, 0)
+		end)
+		mini.MouseButton1Down:Connect(function()
+			mini.ImageLabel.ImageColor3 = Color3.fromRGB(255, 255, 0)
+		end)
+
+		close.MouseButton1Click:Connect(function()
+			script:FindFirstAncestor("OuxieUI"):Destroy()
+		end)
+		mini.MouseButton1Click:Connect(function()
+			script:FindFirstAncestor("UI").Visible = false
+		end)
+	end;
+	task.spawn(C_e);
+	-- StarterGui.OuxieUI.UI.Dragify
+	local function C_f()
+		local script = G2L["f"];
+		local UserInputService = game:GetService("UserInputService")
+
+		local gui = script.Parent
+		local d = script.Parent.Top
+
+		local dragging
+		local dragInput
+		local dragStart
+		local startPos
+
+		local function update(input)
+			local delta = input.Position - dragStart
+			gui.Position = UDim2.new(startPos.X.Scale, startPos.X.Offset + delta.X, startPos.Y.Scale, startPos.Y.Offset + delta.Y)
+		end
+
+		d.InputBegan:Connect(function(input)
+			if input.UserInputType == Enum.UserInputType.MouseButton1 or input.UserInputType == Enum.UserInputType.Touch then
+				dragging = true
+				dragStart = input.Position
+				startPos = gui.Position
+
+				input.Changed:Connect(function()
+					if input.UserInputState == Enum.UserInputState.End then
+						dragging = false
+					end
+				end)
+			end
+		end)
+
+		d.InputChanged:Connect(function(input)
+			if input.UserInputType == Enum.UserInputType.MouseMovement or input.UserInputType == Enum.UserInputType.Touch then
+				dragInput = input
+			end
+		end)
+
+		UserInputService.InputChanged:Connect(function(input)
+			if input == dragInput and dragging then
+				update(input)
+			end
+		end)
+	end;
+	task.spawn(C_f);
+	-- StarterGui.OuxieUI.UI.Tabs.Holder.TabHandler
+	local function C_42()
+		local script = G2L["42"];
+		local function switch(name)
+			for i,v in pairs(script:FindFirstAncestor("UI").Elements.Pages:GetChildren()) do
+				if v.Name == name then
+					v.Visible = true
+				else
+					v.Visible = false
+				end
+			end
+		end
+
+		for i,v in pairs(script.Parent:GetChildren()) do
+			if v:IsA("ImageButton") then
+				v.MouseButton1Click:Connect(function()
+					switch(v.Name)
+				end)
+			end
+		end
+	end;
+	task.spawn(C_42);
+	-- StarterGui.OuxieUI.MINI.Function
+	local function C_46()
+		local script = G2L["46"];
+		script.Parent.Trigger.MouseButton1Click:Connect(function()
+			script:FindFirstAncestor("OuxieUI").UI.Visible = not script:FindFirstAncestor("OuxieUI").UI.Visible
+		end)
+	end;
+	task.spawn(C_46);
+	-- StarterGui.OuxieUI.MINI.Dragify
+	local function C_47()
+		local script = G2L["47"];
+		local UserInputService = game:GetService("UserInputService")
+
+		local gui = script.Parent
+
+		local dragging
+		local dragInput
+		local dragStart
+		local startPos
+
+		local function update(input)
+			local delta = input.Position - dragStart
+			gui.Position = UDim2.new(startPos.X.Scale, startPos.X.Offset + delta.X, startPos.Y.Scale, startPos.Y.Offset + delta.Y)
+		end
+
+		gui.InputBegan:Connect(function(input)
+			if input.UserInputType == Enum.UserInputType.MouseButton1 or input.UserInputType == Enum.UserInputType.Touch then
+				dragging = true
+				dragStart = input.Position
+				startPos = gui.Position
+
+				input.Changed:Connect(function()
+					if input.UserInputState == Enum.UserInputState.End then
+						dragging = false
+					end
+				end)
+			end
+		end)
+
+		gui.InputChanged:Connect(function(input)
+			if input.UserInputType == Enum.UserInputType.MouseMovement or input.UserInputType == Enum.UserInputType.Touch then
+				dragInput = input
+			end
+		end)
+
+		UserInputService.InputChanged:Connect(function(input)
+			if input == dragInput and dragging then
+				update(input)
+			end
+		end)
+	end;
+	task.spawn(C_47);
+	
+	function ui:noti(Title, Desc, Num) -- yes ik this is someone elses, full credit to them
+		local NotificationHolder = loadstring(game:HttpGet("https://raw.githubusercontent.com/BocusLuke/UI/main/STX/Module.Lua"))()
+		local Notification = loadstring(game:HttpGet("https://raw.githubusercontent.com/BocusLuke/UI/main/STX/Client.Lua"))()
+
+		Notification:Notify(
+			{Title = Title, Description = Desc},
+			{OutlineColor = Color3.fromRGB(26, 26, 39),Time = Num, Type = "default"}
+		)
+	end
+	
+	return G2L["1"], require;
+end
+
+return ui
