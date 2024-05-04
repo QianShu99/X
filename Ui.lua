@@ -391,7 +391,7 @@ function ui:Window(Header)
             nameLabel.TextXAlignment = Enum.TextXAlignment.Left
             nameLabel.Font = Enum.Font.SourceSansBold
             nameLabel.TextSize = 14
-            nameLabel.TextColor3 = Color3.fromRGB(160, 160, 239)
+            nameLabel.TextColor3 = Color3.fromRGB(255, 255, 255)
             nameLabel.Size = UDim2.new(0, 175, 0, 34)
             nameLabel.BorderColor3 = Color3.fromRGB(0, 0, 0)
             nameLabel.Text = Name
@@ -472,7 +472,7 @@ function ui:Window(Header)
 			G2L["16"]["TextXAlignment"] = Enum.TextXAlignment.Left;
 			G2L["16"]["FontFace"] = Font.new([[rbxasset://fonts/families/GothamSSm.json]], Enum.FontWeight.Medium, Enum.FontStyle.Normal);
 			G2L["16"]["TextSize"] = 14;
-			G2L["16"]["TextColor3"] = Color3.fromRGB(160, 160, 239);
+			G2L["16"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
 			G2L["16"]["Size"] = UDim2.new(0, 215, 0, 34);
 			G2L["16"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
 			G2L["16"]["Text"] = Name;
@@ -511,7 +511,7 @@ function ui:Window(Header)
 			G2L["19"] = Instance.new("ImageLabel", G2L["13"]);
 			G2L["19"]["BorderSizePixel"] = 0;
 			G2L["19"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
-			G2L["19"]["ImageColor3"] = Color3.fromRGB(157, 157, 235);
+			G2L["19"]["ImageColor3"] = Color3.fromRGB(255, 255, 255);
 			G2L["19"]["AnchorPoint"] = Vector2.new(0, 0.5);
 			G2L["19"]["Image"] = [[rbxassetid://7072706745]];
 			G2L["19"]["Size"] = UDim2.new(0, 27, 0, 27);
@@ -548,7 +548,7 @@ function ui:Window(Header)
             nameLabel.TextXAlignment = Enum.TextXAlignment.Left
             nameLabel.Font = Enum.Font.SourceSansBold
             nameLabel.TextSize = 14
-            nameLabel.TextColor3 = Color3.fromRGB(160, 160, 239)
+            nameLabel.TextColor3 = Color3.fromRGB(255, 255, 255)
             nameLabel.Size = UDim2.new(0, 215, 0, 34)
             nameLabel.BorderColor3 = Color3.fromRGB(0, 0, 0)
             nameLabel.Text = Name
@@ -584,7 +584,7 @@ function ui:Window(Header)
             local checkImage = Instance.new("ImageLabel", toggleFrame)
             checkImage.BorderSizePixel = 0
             checkImage.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-            checkImage.ImageColor3 = Color3.fromRGB(157, 157, 235)
+            checkImage.ImageColor3 = Color3.fromRGB(255, 255, 255)
             checkImage.AnchorPoint = Vector2.new(0, 0.5)
             checkImage.Image = "rbxassetid://7072723598"
             checkImage.Size = UDim2.new(0, 27, 0, 27)
@@ -636,7 +636,7 @@ function ui:Window(Header)
 			G2L["26"]["TextXAlignment"] = Enum.TextXAlignment.Left;
 			G2L["26"]["FontFace"] = Font.new([[rbxasset://fonts/families/GothamSSm.json]], Enum.FontWeight.Medium, Enum.FontStyle.Normal);
 			G2L["26"]["TextSize"] = 14;
-			G2L["26"]["TextColor3"] = Color3.fromRGB(160, 160, 239);
+			G2L["26"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
 			G2L["26"]["Size"] = UDim2.new(0, 215, 0, 34);
 			G2L["26"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
 			G2L["26"]["Text"] = Name;
@@ -675,7 +675,7 @@ function ui:Window(Header)
 			G2L["29"] = Instance.new("ImageLabel", G2L["23"]);
 			G2L["29"]["BorderSizePixel"] = 0;
 			G2L["29"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
-			G2L["29"]["ImageColor3"] = Color3.fromRGB(157, 157, 235);
+			G2L["29"]["ImageColor3"] = Color3.fromRGB(255, 255, 255);
 			G2L["29"]["AnchorPoint"] = Vector2.new(0, 0.5);
 			G2L["29"]["Image"] = [[rbxassetid://7072718266]];
 			G2L["29"]["Size"] = UDim2.new(0, 27, 0, 27);
@@ -715,7 +715,7 @@ function ui:Window(Header)
 			G2L["2d"]["TextXAlignment"] = Enum.TextXAlignment.Left;
 			G2L["2d"]["FontFace"] = Font.new([[rbxasset://fonts/families/GothamSSm.json]], Enum.FontWeight.Medium, Enum.FontStyle.Normal);
 			G2L["2d"]["TextSize"] = 14;
-			G2L["2d"]["TextColor3"] = Color3.fromRGB(160, 160, 239);
+			G2L["2d"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
 			G2L["2d"]["Size"] = UDim2.new(0, 244, 0, 34);
 			G2L["2d"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
 			G2L["2d"]["Text"] = Name;
@@ -780,7 +780,7 @@ function ui:Window(Header)
 				G2L["32"]["TextXAlignment"] = Enum.TextXAlignment.Left;
 				G2L["32"]["FontFace"] = Font.new([[rbxasset://fonts/families/GothamSSm.json]], Enum.FontWeight.Medium, Enum.FontStyle.Normal);
 				G2L["32"]["TextSize"] = 14;
-				G2L["32"]["TextColor3"] = Color3.fromRGB(160, 160, 239);
+				G2L["32"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
 				G2L["32"]["AnchorPoint"] = Vector2.new(0, 0.5);
 				G2L["32"]["Size"] = UDim2.new(0, 215, 0, 34);
 				G2L["32"]["Active"] = true;
@@ -804,7 +804,7 @@ function ui:Window(Header)
 				G2L["34"] = Instance.new("ImageLabel", G2L["2f"]);
 				G2L["34"]["BorderSizePixel"] = 0;
 				G2L["34"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
-				G2L["34"]["ImageColor3"] = Color3.fromRGB(157, 157, 235);
+				G2L["34"]["ImageColor3"] = Color3.fromRGB(255, 255, 255);
 				G2L["34"]["AnchorPoint"] = Vector2.new(0, 0.5);
 				G2L["34"]["Image"] = [[rbxassetid://7072706745]];
 				G2L["34"]["Size"] = UDim2.new(0, 27, 0, 27);
