@@ -115,7 +115,7 @@ function Library:Window(name, game, preset, closebind)
     Switch.Image = "rbxassetid://15512382151"
     Switch.BackgroundTransparency = 1
     Switch.AnchorPoint = Vector2.new(0.5, 0.5)
-    Switch.Position = UDim2.new(0.5, 1, 0.5, 0)
+    Switch.Position = UDim2.new(0.5, 0, 0.5, 0)
     Switch.Size = UDim2.new(0, 50, 0, 50)
 
     SwitchCorner.CornerRadius = UDim.new(0.5, 0)
