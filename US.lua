@@ -112,7 +112,7 @@ function Library:Window(name, game, preset, closebind)
     Switch.Name = "Switch"
     Switch.Parent = UI
     Switch.Draggable = true
-    Switch.Image = "rbxassetid://17400133812"
+    Switch.Image = "rbxassetid://17400131175"
     Switch.BackgroundTransparency = 1
     Switch.AnchorPoint = Vector2.new(0, 0.5)
     Switch.Position = UDim2.new(0, 0, 0.5, 0)
