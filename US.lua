@@ -129,7 +129,7 @@ function Library:Window(name, game, preset, closebind)
     Main.BackgroundTransparency = 0.5
     Main.Position = UDim2.new(0.5, 0, 0.5, 0)
     Main.Size = UDim2.new(0, 0, 0, 0)
-    Main.Color3 = Color3.new(0, 0, 0)
+    Main.BackgroundColor3 = Color3.new(0, 0, 0)
     Main.ClipsDescendants = true
     Main.Visible = true
 
