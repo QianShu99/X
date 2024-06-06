@@ -451,7 +451,6 @@ function Library:Window(name, game, preset, closebind)
         local tabcontent = {}
         function tabcontent:Button(text, callback)
             local Button = Instance.new("TextButton")
-            local ButtonCorner = Instance.new("UICorner")
             local ButtonTitle = Instance.new("TextLabel")
 
             Button.Name = "Button"
@@ -464,10 +463,6 @@ function Library:Window(name, game, preset, closebind)
             Button.Text = ""
             Button.TextColor3 = Color3.fromRGB(0, 0, 0)
             Button.TextSize = 14.000
-
-            ButtonCorner.CornerRadius = UDim.new(0, 5)
-            ButtonCorner.Name = "ButtonCorner"
-            ButtonCorner.Parent = Button
 
             ButtonTitle.Name = "ButtonTitle"
             ButtonTitle.Parent = Button
@@ -513,7 +508,6 @@ function Library:Window(name, game, preset, closebind)
             local toggled = false
 
             local Toggle = Instance.new("TextButton")
-            local ToggleCorner = Instance.new("UICorner")
             local ToggleTitle = Instance.new("TextLabel")
             local FrameToggle1 = Instance.new("Frame")
             local FrameToggle1Corner = Instance.new("UICorner")
@@ -535,10 +529,6 @@ function Library:Window(name, game, preset, closebind)
             Toggle.Text = ""
             Toggle.TextColor3 = Color3.fromRGB(0, 0, 0)
             Toggle.TextSize = 14.000
-
-            ToggleCorner.CornerRadius = UDim.new(0, 5)
-            ToggleCorner.Name = "ToggleCorner"
-            ToggleCorner.Parent = Toggle
 
             ToggleTitle.Name = "ToggleTitle"
             ToggleTitle.Parent = Toggle
@@ -711,7 +701,6 @@ function Library:Window(name, game, preset, closebind)
         function tabcontent:Slider(text, min, max, start, callback)
             local dragging = false
             local Slider = Instance.new("TextButton")
-            local SliderCorner = Instance.new("UICorner")
             local SliderTitle = Instance.new("TextLabel")
             local SliderValue = Instance.new("TextLabel")
             local SlideFrame = Instance.new("Frame")
@@ -729,10 +718,6 @@ function Library:Window(name, game, preset, closebind)
             Slider.Text = ""
             Slider.TextColor3 = Color3.fromRGB(0, 0, 0)
             Slider.TextSize = 14.000
-
-            SliderCorner.CornerRadius = UDim.new(0, 5)
-            SliderCorner.Name = "SliderCorner"
-            SliderCorner.Parent = Slider
 
             SliderTitle.Name = "SliderTitle"
             SliderTitle.Parent = Slider
@@ -841,7 +826,6 @@ function Library:Window(name, game, preset, closebind)
             local itemcount = 0
 
             local Dropdown = Instance.new("Frame")
-            local DropdownCorner = Instance.new("UICorner")
             local DropdownBtn = Instance.new("TextButton")
             local DropdownTitle = Instance.new("TextLabel")
             local ArrowImg = Instance.new("ImageLabel")
@@ -855,10 +839,6 @@ function Library:Window(name, game, preset, closebind)
             Dropdown.ClipsDescendants = true
             Dropdown.Position = UDim2.new(-0.541071415, 0, -0.532915354, 0)
             Dropdown.Size = UDim2.new(0, 363, 0, 42)
-
-            DropdownCorner.CornerRadius = UDim.new(0, 5)
-            DropdownCorner.Name = "DropdownCorner"
-            DropdownCorner.Parent = Dropdown
 
             DropdownBtn.Name = "DropdownBtn"
             DropdownBtn.Parent = Dropdown
@@ -1025,7 +1005,6 @@ function Library:Window(name, game, preset, closebind)
             local HueInput = nil
 
             local Colorpicker = Instance.new("Frame")
-            local ColorpickerCorner = Instance.new("UICorner")
             local ColorpickerTitle = Instance.new("TextLabel")
             local BoxColor = Instance.new("Frame")
             local BoxColorCorner = Instance.new("UICorner")
@@ -1059,10 +1038,6 @@ function Library:Window(name, game, preset, closebind)
             Colorpicker.ClipsDescendants = true
             Colorpicker.Position = UDim2.new(-0.541071415, 0, -0.532915354, 0)
             Colorpicker.Size = UDim2.new(0, 363, 0, 42)
-
-            ColorpickerCorner.CornerRadius = UDim.new(0, 5)
-            ColorpickerCorner.Name = "ColorpickerCorner"
-            ColorpickerCorner.Parent = Colorpicker
 
             ColorpickerTitle.Name = "ColorpickerTitle"
             ColorpickerTitle.Parent = Colorpicker
@@ -1498,7 +1473,6 @@ function Library:Window(name, game, preset, closebind)
         end
         function tabcontent:Label(text)
             local Label = Instance.new("TextButton")
-            local LabelCorner = Instance.new("UICorner")
             local LabelTitle = Instance.new("TextLabel")
 
             Label.Name = "Button"
@@ -1511,10 +1485,6 @@ function Library:Window(name, game, preset, closebind)
             Label.Text = ""
             Label.TextColor3 = Color3.fromRGB(0, 0, 0)
             Label.TextSize = 14.000
-
-            LabelCorner.CornerRadius = UDim.new(0, 5)
-            LabelCorner.Name = "ButtonCorner"
-            LabelCorner.Parent = Label
 
             LabelTitle.Name = "ButtonTitle"
             LabelTitle.Parent = Label
@@ -1532,7 +1502,6 @@ function Library:Window(name, game, preset, closebind)
         end
         function tabcontent:Textbox(text, disapper, callback)
             local Textbox = Instance.new("Frame")
-            local TextboxCorner = Instance.new("UICorner")
             local TextboxTitle = Instance.new("TextLabel")
             local TextboxFrame = Instance.new("Frame")
             local TextboxFrameCorner = Instance.new("UICorner")
@@ -1545,10 +1514,6 @@ function Library:Window(name, game, preset, closebind)
             Textbox.ClipsDescendants = true
             Textbox.Position = UDim2.new(-0.541071415, 0, -0.532915354, 0)
             Textbox.Size = UDim2.new(0, 363, 0, 42)
-
-            TextboxCorner.CornerRadius = UDim.new(0, 5)
-            TextboxCorner.Name = "TextboxCorner"
-            TextboxCorner.Parent = Textbox
 
             TextboxTitle.Name = "TextboxTitle"
             TextboxTitle.Parent = Textbox
@@ -1599,7 +1564,6 @@ function Library:Window(name, game, preset, closebind)
             local binding = false
             local Key = keypreset.Name
             local Bind = Instance.new("TextButton")
-            local BindCorner = Instance.new("UICorner")
             local BindTitle = Instance.new("TextLabel")
             local BindText = Instance.new("TextLabel")
 
@@ -1613,10 +1577,6 @@ function Library:Window(name, game, preset, closebind)
             Bind.Text = ""
             Bind.TextColor3 = Color3.fromRGB(0, 0, 0)
             Bind.TextSize = 14.000
-
-            BindCorner.CornerRadius = UDim.new(0, 5)
-            BindCorner.Name = "BindCorner"
-            BindCorner.Parent = Bind
 
             BindTitle.Name = "BindTitle"
             BindTitle.Parent = Bind
